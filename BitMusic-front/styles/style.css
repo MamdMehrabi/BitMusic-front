@@ -1,0 +1,23 @@
+.background {
+    background-color: rgb(230, 230, 230);
+}
+
+@font-face{
+    font-family: 'vazir';
+    src: url("fonts\Vazirmatn-Regular.woff2") format('woff2');
+ }
+
+@font-face{
+    font-family: 'Apercu';
+    src: url("fonts\ApercuArabicPro-Bold.otf") format('otf');
+ }
+
+ @font-face {
+    font-family: 'estedad';
+    src: url("fonts\Estedad-ExtraBold.woff2");
+ }
+
+
+ p.lead{
+    font-family:'estedad';
+ }
