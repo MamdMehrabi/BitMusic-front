@@ -4,20 +4,18 @@
 
 @font-face{
     font-family: 'vazir';
-    src: url("fonts\Vazirmatn-Regular.woff2") format('woff2');
+    src: url("../fonts/Vazir-Medium.ttf") format('woff2');
  }
 
-@font-face{
-    font-family: 'Apercu';
-    src: url("fonts\ApercuArabicPro-Bold.otf") format('otf');
- }
+p {
+   font-family: 'vazir';
+}
 
- @font-face {
-    font-family: 'estedad';
-    src: url("fonts\Estedad-ExtraBold.woff2");
- }
+.fonts {
+   font-family: 'vazir';
+}
 
-
- p.lead{
-    font-family:'estedad';
- }
+.image {
+   width: 300px;
+   height: 50px;
+}
