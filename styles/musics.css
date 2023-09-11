@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'iran-sans';
+    src: url("../fonts/IRANSansX-Medium.woff2") format('woff2');
+ }
+
+.fonts {
+   font-family: 'iran-sans';
+}
+
+.image {
+   width: 139px;
+   height: 19px;
+}
+.color-costom {
+    background-color: #08192d;
+}
+
+.back-light {
+    color: antiquewhite;
+}
+
+.search-from {
+    position: relative;
+    width: 100px;
+    margin-top: 25px;
+}
