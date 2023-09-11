@@ -3,19 +3,27 @@
 }
 
 @font-face{
-    font-family: 'moraba';
-    src: url("../fonts/Morabba-Medium.ttf") format('ttf');
+   font-family: 'iran-sans';
+   src: url("../fonts/IRANSansX-Medium.woff2") format('woff2');
  }
 
 p {
-   font-family: 'moraba';
+   font-family: 'iran-sans';
 }
 
 .fonts {
-   font-family: 'moraba';
+   font-family: 'iran-sans';
 }
 
 .image {
    width: 139px;
    height: 19px;
+}
+
+.color-costom {
+   background-color: #08192d;
+}
+
+.text-light {
+   color: antiquewhite;
 }
